@@ -2,7 +2,7 @@ var Inflector = require( './Inflector' );
 
 var inflector = new Inflector();
 
-var aWord =  [
+var pWord =  [
 	inflector.pluralize( 'man' ),
 	inflector.pluralize( 'status' ),
 	inflector.pluralize( 'quiz'),
@@ -20,4 +20,37 @@ var aWord =  [
 	inflector.pluralize( 'flag' )
 ];
 
-console.log( aWord );
+var sWord = [
+	inflector.singularize( 'statuses' ),
+	inflector.singularize( 'quizzes' ),
+	inflector.singularize( 'indices' ),
+	inflector.singularize( 'oxen' ),
+	inflector.singularize( 'aliases' ),
+	inflector.singularize( 'alumni' ),
+	inflector.singularize( 'waxes' ),
+	inflector.singularize( 'axes' ),
+	inflector.singularize( 'shoes' ),
+	inflector.singularize( 'foes' ),
+	inflector.singularize( 'houses' ),
+	inflector.singularize( 'buses' ),
+	inflector.singularize( 'mouses' ),
+	inflector.singularize( 'movies' ),
+	inflector.singularize( 'series'),
+	inflector.singularize( 'flies' ),
+	inflector.singularize( 'natives' ),
+	inflector.singularize( 'hives' ),
+	inflector.singularize( 'drives' ),
+	inflector.singularize( 'selves' ),
+	inflector.singularize( 'wolves' ),
+	inflector.singularize( 'analyses' ),
+	inflector.singularize( 'diagnoses' ),
+	inflector.singularize( 'tita' ),
+	inflector.singularize( 'people' ),
+	inflector.singularize( 'men' ),
+	inflector.singularize( 'children' ),
+	inflector.singularize( 'news' ),
+	inflector.singularize( 'eaus' ),
+	inflector.singularize( 'buses' ),
+	inflector.singularize( 'babies' )
+];
+console.log( sWord );
